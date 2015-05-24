@@ -1,0 +1,12 @@
+{
+  "name": "testelectron",
+  "main": "app.js",
+  "scripts": {
+    "run": "./node_modules/.bin/electron app.js"
+  },
+  "dependencies": {
+    "coffee-script": "^1.9.2",
+    "electron-prebuilt": "^0.26.1",
+    "express": "^4.12.4"
+  }
+}

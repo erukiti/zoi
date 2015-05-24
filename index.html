@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja" style="height: 100%;">
+  <meta charset="utf-8">
+  <title>greetings</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+  <body id="body" style="height: 100%; font-family: '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', Avenir, 'Helvetica neue', Helvetica, メイリオ, Meiryo, 'ＭＳ Ｐゴシック', serif;">
+    <table id="filelist">
+      <thead>
+        <tr>
+          <th>ファイル名</th>
+          <th>URL</th>
+          <th>bytes</th>
+        </tr>
+      </thead>
+      <tbody id="files"></tbody>
+    </table>
+	  <script>
+	    require('coffee-script/register');
+	    require('./renderer.coffee')
+	  </script>
+  </body>
+</html>
